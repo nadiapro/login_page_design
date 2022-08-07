@@ -1,0 +1,70 @@
+body {
+    background: rgb(139, 194, 217);
+    background: linear-gradient(90deg, rgba(139, 194, 217, 1) 5%, rgba(135, 209, 223, 1) 33%, rgba(78, 215, 221, 1) 92%);
+}
+
+div {
+    width: 250px;
+    height: 300px;
+    border: 1px solid rgb(126, 126, 228);
+    background-color: aliceblue;
+    padding: 1%;
+    border-radius: 5%;
+    text-align: center;
+    text-transform: capitalize;
+    position: relative;
+    left: 500px;
+    top: 150px;
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {
+    border: none;
+    border-bottom: 1px solid rgb(126, 126, 228);
+    background-color: aliceblue;
+    padding-bottom: 0px;
+}
+
+input[type=button] {
+    width: 200px;
+    padding: 10px;
+    background: linear-gradient(90deg, rgba(90, 100, 180, 1) 5%, rgba(81, 128, 203, 1) 33%, rgba(152, 190, 224, 1) 92%);
+    border: none;
+    border-radius: 4%;
+    position: relative;
+    top: 20px;
+    font-size: 15px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+input[type=button]:hover {
+    background: rgb(63, 63, 196);
+    cursor: cell;
+}
+
+a.zir {
+    position: relative;
+    top: 30px;
+    color: black;
+}
+
+a.zirtar {
+    position: relative;
+    top: 40px;
+}
+
+p {
+    font-size: 20px;
+    position: relative;
+    top: 15px;
+}
+
+input[type="text"]:focus {
+    border: none;
+    border-bottom: 2px solid rgb(126, 126, 228);
+}
